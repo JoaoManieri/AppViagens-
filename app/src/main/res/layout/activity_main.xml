@@ -52,12 +52,11 @@
         android:id="@+id/item_pacote_listview"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        tools:listitem="@layout/item_pacote"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewHeader"
         app:layout_constraintBottom_toBottomOf="parent"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewHeader"
+        tools:listitem="@layout/item_pacote" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
